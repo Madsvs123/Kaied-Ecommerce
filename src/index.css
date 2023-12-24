@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url('assets/images/Banner.png');
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 1rem;
+}
+
+.banner .overlay {
+    background-color: #666;
+    opacity: .2;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position : absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .container {
+    z-index: 10;
+}
+
+.banner .info {
+    color: #FFF;
+}
+
+.banner button {
+    border-radius: 2rem;
+    background : transparent;
+    outline: none;
+    border : 2px solid #FFF;
+    padding: .8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-top: 1rem;
+}
+
+.banner button:hover {
+    scale: 1.1;
+}
+
+.productCard {
+    height : 21rem;
+    overflow : hidden;
+    cursor : pointer;
+    box-shadow : 1px 1px 6px 1px rgba(0, 0, 0, .1);
+}
+
+.productCard:hover {
+    box-shadow : 1px 1px 6px 1px rgba(0, 0, 0, .2);
+}
+
+.discount {
+    position : absolute;
+    top : 2rem;
+    right : -3rem;
+    padding : .4rem 0;
+    width : 14rem;
+    transform: rotate(45deg);
+    boxShadow : 1px 1px 4px 2px rgba(0, 0, 0, .3);
+    transition : .2s all ease-in-out;
+}
+
+.productCard:hover .discount {
+    scale : 1.1;
+}
