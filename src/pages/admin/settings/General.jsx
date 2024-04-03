@@ -1,8 +1,5 @@
-
 const General = () => {
-  return (
-    <div>General</div>
-  )
-}
+  return <div>General</div>;
+};
 
-export default General
+export default General;

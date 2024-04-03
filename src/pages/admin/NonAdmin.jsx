@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const NonAdmin = () => {
-  return (
-    <div>
-        You Don't Have The Authorization To Reach That Page
-    </div>
-  )
-}
+  return <div>You Don't Have The Authorization To Reach That Page</div>;
+};
 
-export default NonAdmin
+export default NonAdmin;
